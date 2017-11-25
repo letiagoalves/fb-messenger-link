@@ -4,7 +4,9 @@
   "description": "Generate a Facebook Messenger protocol link",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo -1"
+    "lint": "eslint './src/**/*.js' './test/**/*.js'",
+    "test": "jest",
+    "check": "npm run lint && npm run test"
   },
   "repository": "letiagoalves/fb-messenger-link",
   "keywords": [
@@ -19,5 +21,10 @@
     "email": "letiagoalves@gmail.com",
     "url": "http://letiagoalves.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-google": "^0.9.1",
+    "jest": "^21.2.1"
+  }
 }
