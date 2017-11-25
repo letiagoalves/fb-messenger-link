@@ -1,11 +1,12 @@
 {
   "name": "fb-messenger-link",
   "version": "0.0.1",
-  "description": "Generate a Facebook Messenger protocol link",
+  "description": "Generate a Facebook Messenger protocol share link",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint './src/**/*.js' './test/**/*.js'",
     "test": "jest",
+    "test-watch": "jest --watch",
     "check": "npm run lint && npm run test"
   },
   "repository": "letiagoalves/fb-messenger-link",

@@ -5,5 +5,7 @@
         "sourceType": "script"
     },
     "plugins": [],
-    "rules": {}
+    "rules": {
+        "max-len": ["error", 120]
+    }
 }
