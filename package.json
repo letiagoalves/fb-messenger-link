@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint './src/**/*.js' './test/**/*.js'",
     "test": "jest",
-    "test-watch": "jest --watch",
+    "test-watch": "jest --watchAll",
     "check": "npm run lint && npm run test"
   },
   "repository": "letiagoalves/fb-messenger-link",
