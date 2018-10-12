@@ -1,6 +1,6 @@
 {
   "name": "fb-messenger-link",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate a Facebook Messenger protocol share link",
   "main": "src/index.js",
   "scripts": {
@@ -24,8 +24,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4.11.0",
-    "eslint-config-google": "^0.9.1",
-    "jest": "^21.2.1"
+    "eslint": "5.7.0",
+    "eslint-config-google": "0.10.0",
+    "jest": "23.6.0"
   }
 }
